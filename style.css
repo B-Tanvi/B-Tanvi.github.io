@@ -32,6 +32,7 @@ h2{
     background-color: midnightblue;
     border-color: transparent;
     color: #fff;
+
 }
 .button.is-link:hover{
     background-color: white;
@@ -68,7 +69,6 @@ progress{
 #html {
   width: 100%;
   height: 5px;
-  /*border: 1px solid whitesmoke;*/
   margin-top: 5px;
   border-radius: 100px;
   background-color: #dbd9d9;
@@ -85,10 +85,105 @@ progress{
 #CSS {
   width: 100%;
   height: 5px;
-  /*border: 1px solid whitesmoke;*/
   margin-top: 5px;
   border-radius: 100px;
   background-color:#dbd9d9;
+}
+
+/*js*/
+#progressBarFulljs{
+  height: 5px;
+  background-color: midnightblue;
+  width: 85%;
+  border-radius: 100px;  
+}
+
+#js{
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color:#dbd9d9;
+}
+
+/*bulmacss*/
+#progressBarFullbulmacss{
+    height: 5px;
+    background-color: midnightblue;
+    width: 85%;
+    border-radius: 100px;  
+}
+  
+#bulmacss{
+    width: 100%;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 100px;
+    background-color:#dbd9d9;
+}
+
+/*python*/
+#progressBarFullpython{
+    height: 5px;
+    background-color: midnightblue;
+    width: 85%;
+    border-radius: 100px;  
+}
+  
+#python{
+    width: 100%;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 100px;
+    background-color:#dbd9d9;
+}
+
+/*c*/
+#progressBarFullc{
+    height: 5px;
+    background-color: midnightblue;
+    width: 85%;
+    border-radius: 100px;  
+}
+  
+#c{
+    width: 100%;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 100px;
+    background-color:#dbd9d9;
+}
+
+/*github*/
+#progressBarFullgithub{
+    height: 5px;
+    background-color: midnightblue;
+    width: 85%;
+    border-radius: 100px;  
+}
+  
+#github{
+    width: 100%;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 100px;
+    background-color:#dbd9d9;
+}
+
+/*matlab*/
+#progressBarFullmatlab{
+    height: 5px;
+    background-color: midnightblue;
+    width: 85%;
+    border-radius: 100px;  
+}
+  
+#matlab{
+    width: 100%;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 100px;
+    background-color:#dbd9d9;
 }
 .picon{
     height: 150px;
@@ -96,4 +191,13 @@ progress{
 }
 .ptitle{
     color: midnightblue;
+}
+
+/* contact */
+#contact{
+    background-color: midnightblue;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
