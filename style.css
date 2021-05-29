@@ -323,3 +323,27 @@ progress{
   border-color: white;
   color:midnightblue;
 }
+@media only screen and (max-width: 768px){
+  body{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .cont{
+    display: block;
+    text-align: center;
+  }
+  .icons{
+    background-color: transparent;
+    position: initial;
+    margin: auto;
+    margin-top: 20px;
+
+  }
+  .icon{
+    color: midnightblue;
+  }
+  .buttons{
+    margin: auto;
+    display: block;
+  }
+}
