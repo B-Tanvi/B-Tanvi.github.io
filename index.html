@@ -6,6 +6,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@animxyz/core@0.4.0/dist/animxyz.min.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -21,6 +25,7 @@
   <body>
     <div class="container">
       <!--Navbar-->
+     <div class="xyz-in" xyz="fade-down flip-up duration-8">
       <nav class="navbar mt-3 px-6 mx-6 has-text-centered-mobile">
         <div>
           <a href="index.html" class="navbar-item brand">TANVI</a>
@@ -34,11 +39,13 @@
           <a href="#contact" class="navbar-item">Contact</a>
         </div>
       </nav>
+     </div>
 
       <!--about-->
+     <div class="xyz-in" xyz="fade-down flip-up duration-8">
       <h1 id="about">ABOUT ME</h1>
       <hr />
-      <div class="about is-flex columns is-justify-content-space-evenly">
+      <div class="about is-flex-desktop-only columns is-justify-content-space-evenly">
         <div class="is-3 column cont">
           <img class="tanvi" src="tanvi.jpg" width="85%" id="tanvi" />
           <div
@@ -66,19 +73,21 @@
           class="about-text is-8 column is-flex is-flex-direction-column is-justify-content-space-around"
         >
           <div>
-            <h2 class="has-text-left is-size-3" style="color: midnightblue">
+            <h2 class="has-text-left has-text-centered-mobile is-size-3" style="color: midnightblue">
               Tanvi Bhankhar
             </h2>
-            <p class="is-size-6">Front-end Developer</p>
-            <p class="is-size-6">Graphic Designer</p>
+            <p class="is-size-6 has-text-centered-mobile">Front-end Developer</p>
+            <p class="is-size-6 has-text-centered-mobile">Graphic Designer</p>
           </div>
-          <p class="has-text-justified" style="font-size: 17px">
+          <div class="xyz-in" xyz="fade-down flip-up duration-8">
+            <p class="has-text-justified has-text-justified-mobile" style="font-size: 17px">
             I am a focused and a very enthusiastic person , keen to learn new
             things. I have keen interest in problem solving and frontend
             developent. I assure to compound constant efforts to make my skills
             and knowledge better so as to contribute the best to the
             organization and society.
-          </p>
+            </p>
+          </div>
           <div class="buttons">
             <a
               href="https://drive.google.com/file/d/1F22m3gFYJxXWGKkzGVVj2vqJ7EYWax8g/view?usp=sharing"
@@ -91,13 +100,13 @@
           </div>
         </div>
       </div>
+    </div>
+    <br><br>
 
       <!--Skills-->
-      <div id="skills">
-        <h1>
-          Skills
-        </h1>
-        <hr>
+      <div id="skills" class="xyz-in" xyz="fade-down flip-up duration-8" >
+        <h1>Skills</h1>
+        <hr />
         <!--Row 1-->
         <div id="row-1" class="columns is-justify-content-space-around mt-6">
           <div class="column is-5">
@@ -273,15 +282,16 @@
       <br /><br />
 
       <!-- project -->
-      <div>
+      <div class="xyz-in" xyz="fade-down flip-up duration-8">
         <h1 id="projects">PROJECTS</h1>
-        <hr>
+        <hr />
         <div class="projects">
           <div class="projects">
             <div class="columns">
               <div
-                class="column is-6 is-flex is-justify-content-space-evenly is-flex-direction-row is-align-items-center">
-                <img src="./assets/calculator.png" class="picon"/>
+                class="column is-6 is-flex is-justify-content-space-evenly is-flex-direction-row is-align-items-center"
+              >
+                <img src="./assets/calculator.png" class="picon" />
                 <div>
                   <p class="ptitle is-size-4">Calculator</p>
                   <p class="has-text-justified">
@@ -290,45 +300,47 @@
                 </div>
               </div>
               <div
-                class="column is-6 is-flex is-justify-content-space-evenly is-flex-direction-row is-align-items-center">
-                <img src="./assets/port.png" class="picon"/>
+                class="column is-6 is-flex is-justify-content-space-evenly is-flex-direction-row is-align-items-center"
+              >
+                <img src="./assets/port.png" class="picon" />
                 <div>
                   <p class="ptitle is-size-4">Portfolio Website</p>
-                      <p class="has-text-justified">
+                  <p class="has-text-justified">
                     Portfolio Website made using HTML, CSS, JS
-                  </p> 
+                  </p>
                 </div>
               </div>
-              
             </div>
-          <div class="columns">
-            <div
-              class="column is-6 is-flex  is-justify-content-space-evenly is-flex-direction-row is-align-items-center" >
-              <img src="./assets/analogclock.png" class="picon" />
-              <div>
-                <p class="ptitle is-size-4">Analog Clock</p>
-                <p class="has-text-justified">
-                  Analog clock made using HTML, CSS, JavaScript
-                </p>
+            <div class="columns">
+              <div
+                class="column is-6 is-flex is-justify-content-space-evenly is-flex-direction-row is-align-items-center"
+              >
+                <img src="./assets/analogclock.png" class="picon" />
+                <div>
+                  <p class="ptitle is-size-4">Analog Clock</p>
+                  <p class="has-text-justified">
+                    Analog clock made using HTML, CSS, JavaScript
+                  </p>
+                </div>
               </div>
-            </div>
-            <div
-              class="column is-6 is-flex  is-justify-content-space-evenly is-flex-direction-row is-align-items-center">
-              <img src="./assets/dc.png" class="picon" />
-              <div>
-                <p class="ptitle is-size-4">Digital Clock</p>
-                <p class="has-text-justified">
-                  Digital clock made using HTML, CSS, JavaScript
-                </p>
+              <div
+                class="column is-6 is-flex is-justify-content-space-evenly is-flex-direction-row is-align-items-center"
+              >
+                <img src="./assets/dc.png" class="picon" />
+                <div>
+                  <p class="ptitle is-size-4">Digital Clock</p>
+                  <p class="has-text-justified">
+                    Digital clock made using HTML, CSS, JavaScript
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
       </div>
       <br />
       <!-- work experienc -->
-      <div>
+      <div class="xyz-in" xyz="fade-down flip-up duration-8">
         <h1 id="Experience">WORK EXPERIENCE</h1>
         <hr />
         <br />
@@ -357,9 +369,8 @@
                   <h3><b>Data Science & Business Analyst Intern</b></h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Facilis at cum dolorum doloribus aliquid impedit exercitationem aperiam odio aliquam itaque.
-
-                    
+                    Facilis at cum dolorum doloribus aliquid impedit
+                    exercitationem aperiam odio aliquam itaque.
                   </p>
                 </div>
               </li>
@@ -371,8 +382,8 @@
                   <h1>We Settle</h1>
                   <h3><b>Business Development Associate</b></h3>
                   <p>
-                    Finding the solution for how to develope business and make daily
-                    reports of increament of sales.
+                    Finding the solution for how to develope business and make
+                    daily reports of increament of sales.
                   </p>
                 </div>
               </li>
@@ -384,9 +395,9 @@
                   <h1>Chaitanya Cheritable Trust</h1>
                   <h3><b>Social Media Manager</b></h3>
                   <p>
-                    CCT is the non profit NGO located at Jamanagar.
-                    The NGO is work for children education in rular area.
-                    I am hendling the instagram account of the NGO for given period of time.
+                    CCT is the non profit NGO located at Jamanagar. The NGO is
+                    work for children education in rular area. I am hendling the
+                    instagram account of the NGO for given period of time.
                   </p>
                 </div>
               </li>
@@ -396,9 +407,10 @@
       </div>
       <br /><br />
       <!--leadership-->
-      <div>
+      <div class="xyz-in" xyz="fade-down flip-up duration-8">
         <h1 id="leadership">LEADERSHIP</h1>
-        <hr><br>
+        <hr />
+        <br />
         <div>
           <div class="cont2">
             <div class="timeline">
@@ -411,8 +423,8 @@
                     <h1>IEEE GCET Student Branch</h1>
                     <h3><b>Joint Chapter Treasurer</b></h3>
                     <p>
-                      Excutive Committee member at IEEE GCET SB.
-                      Responsible for maintaining all records related to budget of an event,
+                      Excutive Committee member at IEEE GCET SB. Responsible for
+                      maintaining all records related to budget of an event,
                       managing overall budget.
                     </p>
                   </div>
@@ -425,8 +437,9 @@
                     <h1>Women's development Cell GCET</h1>
                     <h3><b>Student's Co-Ordinator</b></h3>
                     <p>
-                      Core member of WDC GCET club which is working for women's development.
-                      managing events related to women's empowerment under this WDC GCET SB.
+                      Core member of WDC GCET club which is working for women's
+                      development. managing events related to women's
+                      empowerment under this WDC GCET SB.
                     </p>
                   </div>
                 </li>
@@ -434,55 +447,84 @@
             </div>
           </div>
         </div>
-        <br><br>
+        <br /><br />
       </div>
       <!-- contact -->
-      <h1>Contact</h1><hr>
-        <div id="contact" class="mb-5">
-            <div class="contact">
-                <div class="columns mt-6 is-justify-content-space-around">
-                    <div class="column is-3 is-flex is-flex-direction-column is-align-items-center">
-                        <h1 class="is-2 tan is-align-items-center is-justify-content-space-evenly">TANVI</h1>
-                        <!-- <p class="mt-4 is-align-items-center mt-3">Front-end Developer</p> -->
-                    </div>
-                    <div class="column is-5 is-flex is-flex-direction-column is-align-items-center">
-                        <p class=" is-size-5">Contact Me</p>
-                        <p class="has-text-justified mt-4 mb-4" style="color: white;">If you love front-end development as much as I do
-                           and you might want to connect with me then simply say,
-                            Hello!
-                           don't hesitate to send me an e-mail.</p>
-                        <p><a href="mailto:tanvibhakhar12@gmail.com">
-                                <button class="button is-link is-outlined">Send Mail</button>
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="column is-3 is-flex is-flex-direction-column is-align-items-center">
-                        <p class="mt-5">Connect With Me</p><br>
-                        <div class="is-flex is-justify-content-space-evenly ic">
-                          <span>
-                          <a href="https://www.instagram.com/bewitchingme/" target="_blank">
-                            <span class="icon"><i class="fab fa-2x fa-instagram fa-lg"></i></span>
-                            </a>
-                          </span>
-                          <span>
-                            <a href="https://github.com/B-Tanvi" target="_blank"> 
-                            <span class="icon"><i class="fab fa-2x fa-github fa-lg"></i></span>
-                            </a>
-                          </span>
-                            <a href="https://www.linkedin.com/in/tanvi-bhankhar-0a406017a/" target="_blank">
-                            <span class="icon"><i class="fab fa-2x fa-linkedin-in fa-lg"></i></span>
-                            </a>
-                            <a href="https://medium.com/@tanvibhakhar12" target="_blank">
-                              <span class="icon"><i class="fab fa-2x fa-medium-m fa-lg"></i></span>
-                            </a>
-                        </div>
-                        <p class="mt-4">No copyright.</p>
-                    </div>
-
-                </div>
+     <div class="xyz-in" xyz="fade-down flip-up duration-8">
+      <h1>Contact</h1>
+      <hr />
+      <div id="contact" class="mb-5">
+        <div class="contact">
+          <div class="columns mt-6 is-justify-content-space-around">
+            <div
+              class="column is-3 is-flex is-flex-direction-column is-align-items-center"
+            >
+              <h1
+                class="is-2 tan is-align-items-center is-justify-content-space-evenly"
+              >
+                TANVI
+              </h1>
+              <!-- <p class="mt-4 is-align-items-center mt-3">Front-end Developer</p> -->
             </div>
+            <div
+              class="column is-5 is-flex is-flex-direction-column is-align-items-center"
+            >
+              <p class="is-size-5">Contact Me</p>
+              <p class="has-text-justified mt-4 mb-4" style="color: white">
+                If you love front-end development as much as I do and you might
+                want to connect with me then simply say, Hello! don't hesitate
+                to send me an e-mail.
+              </p>
+              <p>
+                <a href="mailto:tanvibhakhar12@gmail.com">
+                  <button class="button is-link is-outlined">Send Mail</button>
+                </a>
+              </p>
+            </div>
+
+            <div
+              class="column is-3 is-flex is-flex-direction-column is-align-items-center"
+            >
+              <p class="mt-5">Connect With Me</p>
+              <br />
+              <div class="is-flex is-justify-content-space-evenly ic">
+                <span>
+                  <a
+                    href="https://www.instagram.com/bewitchingme/"
+                    target="_blank"
+                  >
+                    <span class="icon"
+                      ><i class="fab fa-2x fa-instagram fa-lg"></i
+                    ></span>
+                  </a>
+                </span>
+                <span>
+                  <a href="https://github.com/B-Tanvi" target="_blank">
+                    <span class="icon"
+                      ><i class="fab fa-2x fa-github fa-lg"></i
+                    ></span>
+                  </a>
+                </span>
+                <a
+                  href="https://www.linkedin.com/in/tanvi-bhankhar-0a406017a/"
+                  target="_blank"
+                >
+                  <span class="icon"
+                    ><i class="fab fa-2x fa-linkedin-in fa-lg"></i
+                  ></span>
+                </a>
+                <a href="https://medium.com/@tanvibhakhar12" target="_blank">
+                  <span class="icon"
+                    ><i class="fab fa-2x fa-medium-m fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+              <p class="mt-4">No copyright.</p>
+            </div>
+          </div>
         </div>
+      </div>
+      </div>  
     </div>
     <script src="main.js"></script>
   </body>
