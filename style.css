@@ -200,7 +200,9 @@ progress{
     color: white;
     padding-left: 50px;
     padding-right: 50px;
-
+}
+.icon2{
+    color:white; 
 }
 /* workex */
 .cont2 {
@@ -340,11 +342,15 @@ progress{
 
   }
   .icon{
-    color: midnightblue;
+    color:midnightblue;
   }
   .buttons{
     margin: auto;
     display: block;
     margin-top: 20px;
   }
+  .icon2{
+    color:white;
+  }
+
 }
